@@ -1,0 +1,59 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://doi.org/10.5281/zenodo.18338186",
+  "@type": "https://schema.org/Dataset",
+  "identifier": "https://doi.org/10.5281/zenodo.18338186",
+  "name": "Student Performance Factors",
+  "creator": [
+    {
+      "name": "YU, CHAO",
+      "givenName": "CHAO",
+      "familyName": "YU",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "UKM"
+        }
+      ],
+      "@type": "Person"
+    }
+  ],
+  "author": [
+    {
+      "name": "YU, CHAO",
+      "givenName": "CHAO",
+      "familyName": "YU",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "UKM"
+        }
+      ],
+      "@type": "Person"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
+  },
+  "dateCreated": "2026-01-22T12:48:28.938241+00:00",
+  "dateModified": "2026-01-22T12:48:29.240599+00:00",
+  "datePublished": "2026-01-22",
+  "contentSize": "630.43 KB",
+  "size": "630.43 KB",
+  "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
+  "description": "<p>Tabular dataset (6,607 records; 20 variables) for student performance analytics. Includes demographics and learning-context factors and the outcome <strong>Exam_Score</strong>. Intended for regression, uncertainty estimation, and budgeted Top-K screening / governance routing experiments. Missing values occur only in three categorical fields (Teacher_Quality, Parental_Education_Level, Distance_from_Home).</p>",
+  "url": "https://zenodo.org/records/18338186",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://zenodo.org/api/records/18338186/files/README.md/content",
+      "encodingFormat": "application/octet-stream"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://zenodo.org/api/records/18338186/files/Student Performance Factors.csv/content",
+      "encodingFormat": "text/csv"
+    }
+  ]
+}
